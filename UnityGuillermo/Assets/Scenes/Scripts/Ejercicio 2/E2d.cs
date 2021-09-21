@@ -7,29 +7,18 @@ public class E2d : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int contador = 0;
-
-        int aleatorio = Random.Range(1, 10);
-        print("Salio " + aleatorio);
 
         bool g = true;
-
+        int aleatorio;
         while (g)
         {
-
-            contador++;
-            print(contador);
-
-
-
-
-            if (contador == aleatorio)
+            aleatorio = Random.Range(1, 10);
+            print(aleatorio);
+            if(aleatorio == 7)
             {
                 g = false;
-                print("Ya me harte de contar");
+                print("Si. Era " + aleatorio);
             }
-
-
         }
     }
 
