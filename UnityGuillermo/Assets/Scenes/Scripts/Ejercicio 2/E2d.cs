@@ -12,7 +12,7 @@ public class E2d : MonoBehaviour
         int aleatorio;
         while (g)
         {
-            aleatorio = Random.Range(1, 10);
+            aleatorio = Random.Range(1, 100);
             print(aleatorio);
             if(aleatorio == 7)
             {
